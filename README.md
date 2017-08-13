@@ -18,6 +18,7 @@ modules: [
 
 ## Configuration options
 The following properties can be configured:
+
 | Option | Description
 | ------ | ---------------------------------------------------------------------
 | `watch`| Youtube id to display. You can get it from youtube url <br> **Exmaple:** `https://www.youtube.com/watch?v=w3jLJU7DT5E` <br>**watch:** w3jLJU7DT5E
