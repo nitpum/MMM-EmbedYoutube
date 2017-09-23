@@ -10,7 +10,7 @@ modules: [
 		position: "bottom_bar",	// This can be any of the regions.
 		config: {
 			// See 'Configuration options' for more information.
-			watch: "w3jLJU7DT5E"
+			video_id: "w3jLJU7DT5E"
 		}
 	}
 ]
@@ -21,10 +21,14 @@ The following properties can be configured:
 
 | Option | Description
 | ------ | ---------------------------------------------------------------------
-| `watch`| Youtube id to display. You can get it from youtube url <br> **Exmaple:** `https://www.youtube.com/watch?v=w3jLJU7DT5E` <br>**watch:** w3jLJU7DT5E
+| `video_id`| Youtube video id to display. You can get it from youtube url <br> **Exmaple:** `https://www.youtube.com/watch?v=w3jLJU7DT5E` <br>**video_id:** w3jLJU7DT5E
 | `autoplay` | Autoplay video when it loaded <br> **Default:** ``false``
-| `showplayercontrol` | Show youtube video control bar <br> **Default:** ``true``
-| `showsuggestedvideo` | Show suggested video at the end of video <br> **Default:** ``false``
-| `showtitle` | Show video title <br> **Default:** ``false``
+| `controls` | Show youtube video controls bar <br> **Default:** ``true``
+| `loop` | Play video again <br> **Default:** ``false``
+| `rel` | Show related video at the end of video <br> **Default:** ``false``
+| `showinfo` | Show video title and uploader <br> **Default:** ``false``
 | `width` | Video width <br> **Default:** ``560``
 | `height` | Video height <br> **Default:** ``315``
+
+## License
+MIT Copyright (c) 2017 Nitipoom Unrrom (aka nitpum)
