@@ -17,6 +17,7 @@ modules: [
 ```
 ## Configuration
 The following properties are require for configured:
+
 | Config | Description
 | ------ | ---------------------------------------------------------------------
 | `video_id`| Youtube video id to display. You can get it from youtube url <br> **Example:** `https://www.youtube.com/watch?v=w3jLJU7DT5E` <br>**video_id:** w3jLJU7DT5E
