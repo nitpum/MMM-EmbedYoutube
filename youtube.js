@@ -8,12 +8,16 @@
 Module.register("youtube", {
 	defualts: {
 		autoplay: false,
-		loop: false,
+		color: "red",
 		controls : true,
+		disablekb: false,
+		fs: true,
+		height: 315,
+		width: 560,
+		loop: false,
+		modestbranding: false,
 		rel : false,
 		showinfo : false,
-		width: 560,
-		height: 315,
 		video_id : "",
 	},
 	getDom: function () {
@@ -22,8 +26,12 @@ Module.register("youtube", {
 		// Parameter
 		var params = "?";
 		params += (this.config.autoplay) ? "autoplay=1" : "autoplay=0";
-		params += (this.config.loop) ? "&loop=1&playlist=" + this.config.video_id : "";
+		params += (this.config.color != "red")? "&color=" + this.config.color:"";
 		params += (this.config.controls)? "&controls=1":"&controls=0";
+		params += (this.config.disablekb)? "&disablekb=1":"";
+		params += (this.config.fs)? "":"&fs=0";
+		params += (this.config.loop) ? "&loop=1&playlist=" + this.config.video_id : "";
+		params += (this.config.modestbranding) ? "&modestbranding=1" : "";
 		params += (this.config.rel)? "&rel=1": "&rel=0";
 		params += (this.config.showinfo)? "&showinfo=1": "&showinfo=0";
 
