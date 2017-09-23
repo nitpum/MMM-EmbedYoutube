@@ -21,7 +21,7 @@ The following properties can be configured:
 
 | Option | Description
 | ------ | ---------------------------------------------------------------------
-| `video_id`| Youtube video id to display. You can get it from youtube url <br> **Exmaple:** `https://www.youtube.com/watch?v=w3jLJU7DT5E` <br>**video_id:** w3jLJU7DT5E
+| `video_id`| Youtube video id to display. You can get it from youtube url <br> **Example:** `https://www.youtube.com/watch?v=w3jLJU7DT5E` <br>**video_id:** w3jLJU7DT5E
 | `autoplay` | Autoplay video when it loaded <br> **Default:** ``false``
 | `controls` | Show youtube video controls bar <br> **Default:** ``true``
 | `loop` | Play video again <br> **Default:** ``false``
