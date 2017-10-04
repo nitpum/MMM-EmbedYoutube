@@ -7,7 +7,7 @@
  * By Nitipoom Unrrom (aka nitpum) https://nitpum.com
  * MIT Licensed.
  */
-Module.register("youtube", {
+Module.register("MMM-EmbedYoutube", {
 	defualts: {
 		autoplay: false,
 		color: "red",
