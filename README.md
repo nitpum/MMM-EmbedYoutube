@@ -7,7 +7,7 @@ To use this module, add it to the modules array in the config/config.js file:
 ```
 modules: [
 	{
-		module: "youtube", // Path to youtube module from modules folder Exmaple: MagicMirror/modules/custom/youtube/ so it's custom/youtube
+		module: "MMM-EmbedYoutube", // Path to youtube module from modules folder Exmaple: MagicMirror/modules/custom/youtube/ so it's custom/youtube
 		position: "bottom_bar",	// This can be any of the regions.
 		config: {
 			// See 'Configuration options' for more information.
