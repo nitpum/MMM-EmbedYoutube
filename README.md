@@ -1,5 +1,7 @@
 # Embed Youtube Module for [MagicMirror](https://github.com/MichMich/MagicMirror)
 
+v1.2.2
+
 ## Using this module
 To use this module, add it to the modules array in the config/config.js file:
 ```js
