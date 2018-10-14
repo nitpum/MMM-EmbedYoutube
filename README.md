@@ -2,7 +2,7 @@
 
 ## Using this module
 To use this module, add it to the modules array in the config/config.js file:
-```JSON
+```js
 modules: [
 	{
 		module: "MMM-EmbedYoutube", // Path to youtube module from modules folder Exmaple: MagicMirror/modules/custom/MMM-EmbedYoutube/ so it's custom/MMM-EmbedYoutube
