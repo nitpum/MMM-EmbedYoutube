@@ -1,6 +1,7 @@
 # Embed Youtube Module for [MagicMirror](https://github.com/MichMich/MagicMirror)
 
-v1.2.2
+v1.3.0
+
 
 ## Using this module
 To use this module, add it to the modules array in the config/config.js file:
@@ -10,8 +11,9 @@ modules: [
 		module: "MMM-EmbedYoutube", // Path to youtube module from modules folder Exmaple: MagicMirror/modules/custom/MMM-EmbedYoutube/ so it's custom/MMM-EmbedYoutube
 		position: "bottom_bar",	// This can be any of the regions.
 		config: {
-			// See 'Configuration options' for more information.
-			video_id: "w3jLJU7DT5E"
+			// See 'Configuration options' in README.md for more information.
+			video_id: "w3jLJU7DT5E",
+			loop: true
 		}
 	}
 ]
@@ -38,6 +40,7 @@ The following properties can be configured:
 | `modestbranding` | Prevent the Youtube logo displaying in the controlbar. But Youtube text label still display in the upper-right cornner of a paused video when the user's mouse pointer hovers over the player. | ``false`` | Boolean
 | `rel` | Show related video at the end of video | ``false`` | Boolean
 | `showinfo` | Show video title and uploader | ``false`` | Boolean
+| `video_list` | Custom playlist by video id. Youtube will play `video_id` first then play video from `video_list`. See [Example in Wiki](https://github.com/nitpum/MMM-EmbedYoutube/wiki/Custom-Playlist) | [] | Array
 | `width` | Video width | ``560`` | Integer
 | `height` | Video height | ``315`` | Integer
 
