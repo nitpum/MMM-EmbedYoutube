@@ -2,7 +2,7 @@
 /* Magic Mirror
  * Module: Embed Youtube
  * 
- * v 1.3.0
+ * v 1.3.1
  * 
  * By Nitipoom Unrrom (aka nitpum) https://nitpum.com
  * MIT Licensed.
