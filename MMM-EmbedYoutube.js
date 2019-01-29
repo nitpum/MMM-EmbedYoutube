@@ -2,13 +2,13 @@
 /* Magic Mirror
  * Module: Embed Youtube
  * 
- * v 1.3.1
+ * v 1.3.2
  * 
  * By Nitipoom Unrrom (aka nitpum) https://nitpum.com
  * MIT Licensed.
  */
 Module.register("MMM-EmbedYoutube", {
-	defualts: {
+	defaults: {
 		autoplay: false,
 		color: "red",
 		controls : true,
