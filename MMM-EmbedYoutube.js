@@ -2,7 +2,7 @@
 /* Magic Mirror
  * Module: Embed Youtube
  * 
- * v 1.3.2
+ * v 1.3.3
  * 
  * By Nitipoom Unrrom (aka nitpum) https://nitpum.com
  * MIT Licensed.
@@ -44,13 +44,13 @@ Module.register("MMM-EmbedYoutube", {
 		params += (this.config.controls)? "&controls=1":"&controls=0";
 		params += (this.config.disablekb)? "&disablekb=1":"";
 		params += (this.config.fs)? "":"&fs=0";
-		params += (videoList != "") ? videoList : "";
+		params += (videoList != "" && (typeof this.config.playlist === "undefined" || this.config.playlist == "")) ? videoList : "&playlist=" + this.config.video_id; // required playlist to loopable
 		params += (this.config.loop) ? "&loop=1" : "";
 		params += (this.config.modestbranding) ? "&modestbranding=1" : "";
 		params += (this.config.rel)? "&rel=1": "&rel=0";
 		params += (this.config.showinfo)? "&showinfo=1": "&showinfo=0";
 
-		var videoId = this.config.video_id +"?version=3&playlist=" + this.config.video_id;
+		var videoId = this.config.video_id +"?version=3";
 		if (typeof this.config.playlist !== "undefined" && this.config.playlist != "")
 			videoId = "playlist?list=" + this.config.playlist + "&";
 
