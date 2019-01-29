@@ -1,6 +1,6 @@
 # Embed Youtube Module for [MagicMirror](https://github.com/MichMich/MagicMirror)
 
-v1.3.1
+v1.3.3
 
 
 ## Using this module
