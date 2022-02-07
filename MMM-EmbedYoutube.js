@@ -10,7 +10,7 @@
 Module.register("MMM-EmbedYoutube", {
 	defaults: {
 		autoplay: false,
-		subtitle: false,
+		cc_load_policy: false,
 		color: "red",
 		controls : true,
 		disablekb: false,
