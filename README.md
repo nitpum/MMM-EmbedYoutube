@@ -26,7 +26,7 @@ The following properties are required for configuration:
 
 | Config     | Description                                                                                                                                                |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `video_id` | Youtube video id to display. You can get it from youtube url <br> **Example:** `https://www.youtube.com/watch?v=w3jLJU7DT5E` <br>**video_id:** w3jLJU7DT5E |
+| `video_id` | Youtube video id to display. You can get it from youtube url <br> **Example:** `https://www.youtube.com/watch?v=dQw4w9WgXcQ` <br>**video_id:** dQw4w9WgXcQ |
 
 ## Optional configuration
 
