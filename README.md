@@ -1,5 +1,7 @@
 # Embed Youtube Module for [MagicMirror](https://github.com/MichMich/MagicMirror)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F21LCOB)
+
 v1.3.3
 
 ## Using this module
