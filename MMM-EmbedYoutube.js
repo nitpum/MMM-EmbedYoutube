@@ -10,6 +10,7 @@
 Module.register("MMM-EmbedYoutube", {
 	defaults: {
 		autoplay: false,
+		mute: false,
 		cc_load_policy: false,
 		color: "red",
 		controls : true,
@@ -41,6 +42,7 @@ Module.register("MMM-EmbedYoutube", {
 			}
 		}
 		params += (this.config.autoplay) ? "autoplay=1" : "autoplay=0";
+		params += (this.config.mute) ? "&mute=1" : "&mute=0";
 		params += (this.config.cc_load_policy) ? "&cc_load_policy=1" : "&cc_load_policy=0";
 		params += (typeof this.config.color !== "undefined" && this.config.color != "red")? "&color=" + this.config.color:"";
 		params += (this.config.controls)? "&controls=1":"&controls=0";
